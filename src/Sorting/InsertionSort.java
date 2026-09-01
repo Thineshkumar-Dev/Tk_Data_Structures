@@ -19,6 +19,7 @@ public class InsertionSort {
         }
         // Time Complexity: O(n²)
         // Space Complexity: O(1)
+        // Space Complexity: O(1)
     }
 
     private static void sortTheArray1(int[] arr) {
