@@ -13,7 +13,7 @@ public class SelectionSort {
     }
 //brute force multiple swap
     private static void sortTheArray1(int[] arr) {
-        for(int i=0;i<arr.length-1;i++){
+        for(int i=0;i<arr.length;i++){
             for(int j=i+1;j< arr.length;j++){
                 if(arr[i]>arr[j]){
                     int temp=arr[i];
@@ -27,7 +27,7 @@ public class SelectionSort {
 //        Space complexity = O(1);
     }
     private static void sortTheArray2(int []arr){
-        for(int i=0;i< arr.length-1;i++){
+        for(int i=0;i< arr.length;i++){
             int min=i;
             for (int j=i+1;j< arr.length;j++){
                 if (arr[min]>arr[j]){
